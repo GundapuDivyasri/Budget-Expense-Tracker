@@ -1,0 +1,141 @@
+*{ 
+    padding:0; 
+    margin:0; 
+} 
+body{ 
+    background-image: url("expensebg.jpg"); 
+    background-size: cover; 
+    color:white; 
+} 
+.header{
+    width:100%;
+    height:50px;
+    background-color: #28a745;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.name{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    top:10px;
+    left:10px;
+    position: absolute;
+    padding-left:10px;
+}
+.nav-bar{
+    display:flex;
+    right:10px;
+    top:15px;
+    justify-content: flex-end;
+    align-items: center;
+    position:absolute;
+}
+.nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 30px;
+    gap:20px;
+}
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    color:white;
+    list-style: none;
+    text-decoration: none; 
+    font-size: 20px;
+}
+#label1{ 
+    margin-left: 20px; 
+} 
+.container{ 
+    margin-left:20px; 
+    margin-top:40px; 
+    display: flex; 
+    justify-content: space-evenly; 
+    align-items: center; 
+    font-family: 'Times New Roman', Times, serif; 
+} 
+h1{ 
+    display:flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 10px; 
+    color:white; 
+ 
+} 
+#budget{ 
+    margin-left: 40px; 
+    margin:10px; 
+} 
+input{ 
+    width:200px; 
+    height:25px; 
+    font-size: 18px; 
+} 
+select{ 
+    width:150px; 
+    height:25px; 
+    font-size: 18px; 
+} 
+label{ 
+    font-size: 25px; 
+    color:white; 
+} 
+#add-btn{ 
+    width:80px; 
+    height: 30px; 
+    font-size: 20px; 
+    text-align: center; 
+    color:white; 
+    border:none; 
+    border-radius: 4px; 
+    background-color: #28a745; 
+} 
+.expenses-list{ 
+    margin:15px; 
+} 
+h2{ 
+    text-align: center; 
+    margin-bottom: 20px; 
+    margin-top: 20px; 
+} 
+table{ 
+    margin-left:70px; 
+    width:90%; 
+    color:black; 
+    border-collapse: separate; 
+} 
+th{ 
+    background-color:#28a745; 
+    padding:10px; 
+    color:white; 
+    font-size: 20px; 
+} 
+td{ 
+    background-color: rgb(241, 232, 232); 
+    color:black; 
+    padding:10px; 
+    font-size: 18px; 
+} 
+.delete-btn { 
+    background-color: #ff4d4d; 
+    color: white; 
+    border: none; 
+    padding:8px 10px; 
+    cursor: pointer; 
+    border-radius: 4px; 
+    transition: background 0.3s ease-in-out; 
+} 
+ 
+.delete-btn:hover { 
+    background-color: #cc0000;
+}

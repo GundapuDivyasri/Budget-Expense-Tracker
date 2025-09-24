@@ -1,0 +1,38 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <title>Login</title> 
+    <link rel="stylesheet" href="login.css?ver=1.1"> 
+</head> 
+<body> 
+    <header class="header">
+        <div class="name">My Tracker</div>
+        <nav class="nav-bar">
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="index.html">Sign Up</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="data.php">Expenses</a></li>
+                <li><a href="logout.php">Logout</a></li> 
+            </ul>
+        </nav>
+    </header> 
+    <div class="tagline"> 
+    <p>Are you worried of keeping track of your monthly expenses.Then your are on the right 
+platform to: 
+        <br>"Track your spending, master your savings."</p> 
+        </div> 
+    <img src="expensehome.bg.jpg" alt="homebg"> 
+    <div class="login_container"> 
+    <h2>Login</h2> 
+    <form action="login.php" method="post"> 
+        <label>Email:</label> <br>
+        <input type="email" name="email" required> 
+        <label>Password:</label> 
+        <input type="password" name="password" required> 
+        <center><button type="submit">Login</button></center>
+    </form> 
+</div> 
+</body> 
+</html>
