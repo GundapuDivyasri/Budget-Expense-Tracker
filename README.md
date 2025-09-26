@@ -54,6 +54,15 @@ All expenses are shown in a tabular format for easy tracking.
 
 📂 Database Design
 
-Users Table → Stores user details (id, name, email, password).
+Users Table → Stores user details (id, name, password,budget).
 
-Expenses Table → Stores expenses (id, user_id, category, amount, description, date).
+Expenses Table → Stores expenses (id, user_id, category, amount, date).
+
+👉Future Improvements
+
+Make the application available access to all.
+
+Adding features like analytics,generating reports etc.
+
+Provinding personalized suggestions based on expenses.
+
